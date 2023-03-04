@@ -40,7 +40,7 @@ def main():
     for i in range(0,n):
         user_input = input("Enter your choice:")
         computer_input = random_generator(card_list)
-        print(computer_input)
+        print("Computer's Choice: " + str(computer_input))
         print("----------\n")
 
         if (user_input > computer_input):
